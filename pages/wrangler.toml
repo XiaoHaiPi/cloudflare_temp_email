@@ -43,8 +43,8 @@ ENABLE_USER_DELETE_EMAIL = true
 # D1 数据库的名称和 ID 可以在 cloudflare 控制台查看
 [[d1_databases]]
 binding = "DB"
-database_name = "tempmail" # D1 数据库名称
-database_id = "806e5cdd-fc80-41ff-94ad-c58648d517df" # D1 数据库 ID
+database_name = "tempemail" # D1 数据库名称
+database_id = "c498bef2-eb39-4aa6-8a7f-0f2607b1bf28" # D1 数据库 ID
 
 # kv config 用于用户注册发送邮件验证码，如果不启用用户注册或不启用注册验证，可以不配置
 # [[kv_namespaces]]
