@@ -59,7 +59,7 @@ DOMAINS = ["renhaipi.xyz"] # all domain names
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "vip", prefix = "vip" },
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "admin", prefix = "" },
 # ]
-JWT_SECRET = "b7e1f5b1c2d3478ea9d3b6a1f0e9c8d7a6b5c4d3e2f1a9b8"
+JWT_SECRET = ""
 BLACK_LIST = ""
 # Allow users to create email addresses
 ENABLE_USER_CREATE_EMAIL = true
@@ -138,7 +138,7 @@ ENABLE_AUTO_REPLY = false
 [[d1_databases]]
 binding = "DB"
 database_name = "tempemail" # D1 数据库名称
-database_id = "c498bef2-eb39-4aa6-8a7f-0f2607b1bf28" # D1 数据库 ID
+database_id = "" # D1 数据库 ID
 
 # Workers AI binding (required for AI email extraction)
 # [ai]
